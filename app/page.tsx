@@ -4,7 +4,7 @@ import { ChevronDown } from "lucide-react";
 
 export default function LoginPage() {
   return (
-    <div className="flex flex-col items-center px-4 sm:px-0">
+    <div className="bg-[#ffffff] flex flex-col items-center px-4 sm:px-0">
       <div className="sm:max-w-md flex flex-col items-center justify-center sm:border-gray-300 sm:border rounded-md mt-8 p-6 sm:p-10">
         <div className="">
           <Image
