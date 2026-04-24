@@ -4,7 +4,7 @@ import { ChevronDown } from "lucide-react";
 
 export default function LoginPage() {
   return (
-    <div className="bg-[#ffffff] flex flex-col items-center px-4 sm:px-0">
+    <div className="bg-[#ffffff] flex flex-col justify-center items-center px-4 sm:px-0 h-screen">
       <div className="sm:max-w-md flex flex-col items-center justify-center sm:border-gray-300 sm:border rounded-md mt-8 p-6 sm:p-10">
         <div className="">
           <Image
@@ -67,7 +67,8 @@ export default function LoginPage() {
 
             <div className="relative flex justify-between mb-4 items-center">
               <div>
-                <button className="absolute top-0 -left-2 px-2 py-2 rounded-sm text-[13px] sm:text-[14px] text-blue-600 hover:bg-[#F6FAFE] hover:text-blue-700">
+                <button className="absolute top-0 -left-2 px-2 py-2 rounded-sm text-[13px] sm:text-[14px] 
+                text-blue-600 hover:bg-[#F6FAFE] hover:text-blue-700 cursor-pointer">
                   Create account
                 </button>
               </div>
